@@ -4,9 +4,13 @@
 
 This project automates EC2 instance start/stop based on custom hours using only AWS-native services — no external scripts or tools. It also sends real-time notifications using Amazon SNS.
 
-# EventBridge → Lambda → EC2
-                  ↓
-                 SNS → Email
+## 🧭 Workflow Overview
+
+```text
+EventBridge ──> Lambda ──> EC2
+                     ↓
+                    SNS ──> Email
+
                  
 - AWS Lambda
 - Amazon EC2
