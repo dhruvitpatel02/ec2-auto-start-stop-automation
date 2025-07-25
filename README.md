@@ -8,7 +8,7 @@ This project automates EC2 instance start/stop based on custom hours using only 
 ```md
 ## 🕒 Workflow Overview
 
-```text
+
 EventBridge ──> Lambda ──> EC2  
                      ↓  
                     SNS ──> Email
